@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-
 class Node {
     int data;
     Node* next;
@@ -41,9 +39,6 @@ int main() {
 
     Node* LL = ConvertArrLL(arr);
     LL->print(LL);
-
-
-
 
     return 0;
 }
